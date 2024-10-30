@@ -26,9 +26,16 @@
 #     main2(x+1)
 # main2(3)
 
-try:
-    print(x)
-except NameError:
-    print(None)
-except IndentationError:
-    print(False)
+# try:
+#     print(x)
+# except NameError:
+#     print(None)
+# except IndentationError:
+#     print(False)
+
+# arr = [[11,123],[2,45342],[3,12],[4,432]]
+# arr2 = sorted(arr, key = lambda x: sum(x), reverse=True)
+# print(arr2)
+
+# arr3 = [[3,10], [5,2], [66,4], [11,90]]
+# print(max(arr3, key = lambda x: x[1]))
