@@ -39,3 +39,21 @@
 
 # arr3 = [[3,10], [5,2], [66,4], [11,90]]
 # print(max(arr3, key = lambda x: x[1]))
+
+# arr = ["asd","asd"]
+# d = {}
+# for i in arr:
+#     if i not in d:
+#         d[i] = 1
+#     else:
+#         d[i] += 1 
+# print(d)
+
+d1 = {"name": "Sumaya", "phone": "550"}
+d2 = {"name": "Nazima", "phone": "550"}
+
+for j in d2:
+    if j in d1:
+        d1[j] += d2[j]
+
+print(d1)
